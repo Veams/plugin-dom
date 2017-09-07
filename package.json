@@ -1,7 +1,7 @@
 {
 	"name": "veams-plugin-dom",
-	"version": "1.0.0",
-	"description": "Veams DOM plugin.",
+	"version": "1.0.1",
+	"description": "VeamsDOM plugin.",
 	"main": "lib/index.js",
 	"browserify": {
 		"transform": [
