@@ -1,7 +1,7 @@
 {
 	"name": "veams-plugin-dom",
-	"version": "1.0.1",
-	"description": "VeamsDOM plugin.",
+	"version": "1.0.2",
+	"description": "The VeamsDOM plugin is simple plugin for which you need to pass a DOM handler like jQuery. For some other plugins VeamsDOM is a requirement.",
 	"main": "lib/index.js",
 	"browserify": {
 		"transform": [
