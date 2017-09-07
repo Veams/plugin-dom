@@ -1,8 +1,8 @@
-var webpack = require('webpack');
-var UglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
-var path = require('path');
-var env = require('yargs').argv.mode;
-var libraryName = '[name]';
+const webpack = require('webpack');
+const UglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
+const path = require('path');
+const env = require('yargs').argv.mode;
+const libraryName = '[name]';
 var plugins = [], outputFile;
 
 if (env === 'build') {
@@ -12,7 +12,7 @@ if (env === 'build') {
 	outputFile = libraryName + '.js';
 }
 
-var config = {
+const config = {
 	entry: {
 		'index': __dirname + '/src/index.js'
 	},
