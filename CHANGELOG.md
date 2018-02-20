@@ -1,4 +1,5 @@
 ### v1.0.2
+- Rewrite in typescript
 - Update description
 
 ### v1.0.1

@@ -15,7 +15,7 @@ const VeamsDOM = {
 		DOM: null
 	},
 	pluginName: '$',
-	initialize: function (Veams, { DOM }: DomOptions) {
+	initialize: function (Veams, {DOM}: DomOptions): void {
 		if (!DOM) {
 			console.error('VeamsDOM :: You need to pass an options object with a DOM handler: options.DOM!');
 			return;
