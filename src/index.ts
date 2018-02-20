@@ -1,11 +1,21 @@
 'use strict';
 
+export interface DomOptions {
+	DOM: any
+}
+
+export interface DomPlugin {
+	options: DomOptions,
+	pluginName: string,
+	initialize: any
+}
+
 const VeamsDOM = {
 	options: {
-		DOM: false
+		DOM: null
 	},
 	pluginName: '$',
-	initialize: function (Veams, { DOM }) {
+	initialize: function (Veams, { DOM }: DomOptions) {
 		if (!DOM) {
 			console.error('VeamsDOM :: You need to pass an options object with a DOM handler: options.DOM!');
 			return;
