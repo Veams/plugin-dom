@@ -1,6 +1,6 @@
 {
 	"name": "@veams/plugin-dom",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "The VeamsDOM plugin is simple plugin for which you need to pass a DOM handler like jQuery. For some other plugins VeamsDOM is a requirement.",
 	"main": "./lib/index.js",
 	"types": "./lib/index.d.ts",
